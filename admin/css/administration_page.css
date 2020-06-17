@@ -1,0 +1,769 @@
+html, body{
+	margin:0px;
+	height:100%;
+	width:100%;
+}
+
+.administration_page{
+	position:absolute;
+	display:block;
+	top:0%;
+	right:0%;
+	left:0%;
+	bottom:0%;
+	min-height: 600px;
+}
+
+.top_options{
+	position:absolute;
+	display:block;
+	top:0%;
+	left:0%;
+	right:0%;
+	bottom: 90%;
+	background-color:#101820FF;
+	border-bottom: 5px solid #195190FF;
+}
+
+.logo_display{
+	position:absolute;
+	top:0%;
+	bottom:0%;
+	left:0%;
+	right:75%;
+	text-align:center;
+}
+
+.logo_display h3{
+	color:#DAA03DFF;
+}
+
+.functions_display{
+	position:absolute;
+	top:0%;
+	bottom:0%;
+	right:5%;
+	left:70%;
+	display:inline-block;
+}
+
+.administration_logout{
+	position:absolute;
+	top:0%;
+	bottom:0%;
+	right:0%;
+	left:0%;
+	display:block;
+}
+
+.administration_logout i{
+	position:absolute;
+	display:block;
+	top:30%;
+	left:40%;
+	font-size:20px;
+	display:block;
+	color:#DAA03DFF;
+	cursor:pointer;
+	transition: 0.3s;
+}
+
+.administration_logout i:hover{
+	color:red;
+}
+
+
+.right_options{
+	position:absolute;
+	display:block;
+	top:10%;
+	bottom: 0%;
+	left:75%;
+	right: 0%;
+	background-color:#101820FF;
+}
+
+
+.api_resources{
+	position:absolute;
+	top:5%;
+	left:5%;
+	right:5%;
+	bottom:52.5%;
+	background-color:rgb(230, 230, 230);
+	display:block;
+
+}
+
+.api_resources_banner{
+	position:absolute;
+	top:0%;
+	bottom:80%;
+	left:0%;
+	right:0%;
+	background-color:#DAA03DFF;
+}
+
+.api_resources_banner h3{
+	position:absolute;
+	text-indent: 5%;
+	width:100%;
+}
+
+.api_resources_links{
+	position:absolute;
+	top:20%;
+	bottom:0%;
+	left:0%;
+	right:0%;
+	display:block;
+}
+
+.api_resources_links ul{
+	display:block;
+}
+
+
+.api_resources_links li{
+	display:block;
+	margin-top:1%;
+}
+
+.api_resources_links li a{
+	text-decoration: none;
+	color:#195190FF;
+	display:block;
+	font-size:18px;
+	transition:0.3s;
+}
+
+.api_resources_links a:hover{
+	color:red;
+}
+
+
+
+.server_informations{
+	position:absolute;
+	top:52.5%;
+	left:5%;
+	right:5%;
+	bottom:5%;
+	background-color:rgb(230, 230, 230);
+	display:block;
+
+}
+
+
+.server_informations_banner{
+	position:absolute;
+	top:0%;
+	bottom:80%;
+	left:0%;
+	right:0%;
+	background-color:#DAA03DFF;
+}
+
+.server_informations_banner h3{
+	position:absolute;
+	text-indent: 5%;
+	width:100%;
+}
+
+.server_informations_links{
+	position:absolute;
+	top:20%;
+	bottom:0%;
+	left:0%;
+	right:0%;
+	display:block;
+}
+
+.server_informations_links ul{
+	display:block;
+}
+
+
+.server_informations_links li{
+	display:block;
+	margin-top:1%;
+}
+
+.server_informations_links li a{
+	text-decoration: none;
+	color:#195190FF;
+	display:block;
+	font-size:18px;
+	transition:0.3s;
+}
+
+.server_informations_links a:hover{
+	color:red;
+}
+
+.center_options{
+	position:absolute;
+	top:10%;
+	bottom: 0%;
+	left:0%;
+	right: 25%;
+	background-color:white;
+}
+
+.files_section{
+	position:absolute;
+	display:block;
+	top:5%;
+	left:5%;
+	right:5%;
+	bottom: 52.5%;
+	background-color:rgb(230, 230, 230);
+}
+
+
+.files_section h3{
+	margin-top:0%;
+	margin-left:0%;
+	margin-right:0%;
+	background-color:#DAA03DFF;
+	width:100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-indent: 5%;
+	color:#101820FF;
+}
+
+.files_structure_display{
+	position:absolute;
+	top:40%;
+	left: 5%;
+	right: 60%;
+	bottom: 40%;
+	display:block;
+}
+
+.files_structure_display i{
+	font-size:20px;
+	color:#101820FF;
+	transition: 0.3s;
+	cursor:pointer;
+}
+.files_structure_display i:hover{
+	color:red;
+}
+
+.api_structure_display{
+	position:absolute;
+	top:70%;
+	left: 5%;
+	right:	60%;
+	bottom: 10%;
+	display:block;
+}
+
+.api_structure_display i{
+	font-size:20px;
+	color:#101820FF;
+	transition: 0.3s;
+	cursor:pointer;
+}
+.api_structure_display i:hover{
+	color:red;
+}
+
+
+.restoration_display{
+	position:absolute;
+	top:70%;
+	left: 30%;
+	right:	30%;
+	bottom: 10%;
+	display:block;
+}
+
+.restoration_display i{
+	font-size:20px;
+	color:#101820FF;
+	transition: 0.3s;
+	cursor:pointer;
+}
+.restoration_display i:hover{
+	color:red;
+}
+
+.backup_display{
+	position:absolute;
+	top:40%;
+	left: 30%;
+	right:	35%;
+	bottom: 40%;
+	display:block;
+}
+
+.backup_display i{
+	font-size:20px;
+	color:#101820FF;
+	transition: 0.3s;
+	cursor:pointer;
+}
+.backup_display i:hover{
+	color:red;
+}
+
+.launch_project_display{
+	position:absolute;
+	top:40%;
+	left: 65%;
+	right: 5%;
+	bottom: 40%;
+	display:block;
+}
+
+.launch_project_display i{
+	font-size:20px;
+	color:#101820FF;
+	transition: 0.3s;
+	cursor:pointer;
+}
+.launch_project_display i:hover{
+	color:red;
+}
+
+
+
+.database_section{
+	position:absolute;
+	bottom:5%;
+	left:5%;
+	right:5%;
+	top: 52.5%;
+	background-color:rgb(230, 230, 230);
+}
+
+.database_section h3{
+	margin-top:0%;
+	margin-left:0%;
+	margin-right:0%;
+	background-color:#DAA03DFF;
+	width:100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-indent: 5%;
+	color:#101820FF;
+}
+
+
+.tables_structure_display{
+	position:absolute;
+	top:40%;
+	left: 5%;
+	right: 60%;
+	bottom: 40%;
+	display:block;
+}
+
+.tables_structure_display i{
+	font-size:20px;
+	color:#101820FF;
+	transition: 0.3s;
+	cursor:pointer;
+}
+.tables_structure_display i:hover{
+	color:red;
+}
+
+.database_backup_display{
+	position:absolute;
+	top:40%;
+	left: 30%;
+	right:	35%;
+	bottom: 40%;
+	display:block;
+}
+
+.database_backup_display i{
+	font-size:20px;
+	color:#101820FF;
+	transition: 0.3s;
+	cursor:pointer;
+}
+.database_backup_display i:hover{
+	color:red;
+}
+
+.database_restoration_display{
+	position:absolute;
+	top:70%;
+	left: 30%;
+	right:	35%;
+	bottom: 10%;
+	display:block;
+}
+
+.database_restoration_display i{
+	font-size:20px;
+	color:#101820FF;
+	transition: 0.3s;
+	cursor:pointer;
+}
+.database_restoration_display i:hover{
+	color:red;
+}
+
+.launch_phpmyadmin_display{
+	position:absolute;
+	top:40%;
+	left: 60%;
+	right: 5%;
+	bottom: 40%;
+	display:block;
+}
+
+.launch_phpmyadmin_display i{
+	font-size:20px;
+	color:#101820FF;
+	transition: 0.3s;
+	cursor:pointer;
+}
+.launch_phpmyadmin_display i:hover{
+	color:red;
+}
+
+.export_all_tables_display{
+	position:absolute;
+	top:70%;
+	left: 5%;
+	right:	60%;
+	bottom: 10%;
+	display:block;
+}
+
+.export_all_tables_display i{
+	font-size:20px;
+	color:#101820FF;
+	transition: 0.3s;
+	cursor:pointer;
+}
+.export_all_tables_display i:hover{
+	color:red;
+}
+
+
+.add_admin_display{
+	position:absolute;
+	top:70%;
+	left: 60%;
+	right:	5%;
+	bottom: 10%;
+	display:block;
+}
+
+.add_admin_display i{
+	font-size:20px;
+	color:#101820FF;
+	transition: 0.3s;
+	cursor:pointer;
+}
+
+
+.add_admin_display i:hover{
+	color:red;
+}
+
+
+.viewer .fa-window-close{
+	float:right;
+	margin-right:2px;
+	color:#101820FF;
+	transition: 0.3s;
+	cursor:pointer;
+	font-size:30px;
+}
+
+.viewer .fa-window-close:hover{
+	color:red;
+}
+
+.option_view{
+	position:fixed;
+	background-color:rgba(0,0,0,0.8);
+	top:0%;
+	bottom: 0%;
+	left: 0%;
+	right: 0%;
+	display:none;
+}
+
+.viewer{
+	position:absolute;
+	background-color:white;
+	top:4%;
+	bottom: 3%;
+	left: 3%;
+	right: 4%;
+	display:none;
+	overflow:auto;
+}
+
+.actviewer_container{
+	position:absolute;
+	top:4%;
+	bottom:1%;
+	left:1%;
+	right:4%;
+	display:block;
+	min-height:250px;
+}
+
+.strviewer_container{
+	position:absolute;
+	top:5%;
+	bottom:1%;
+	left:1%;
+	right:5%;
+	display:block;
+	min-height:250px;
+}
+
+.str_selector{
+	position:absolute;
+	top:70%;
+	right:0%;
+	left:90%;
+	bottom:5%;
+	width:9%;
+	height:10%;
+	display:none;
+}
+
+.str_selector i{
+	color:#DAA03DFF;
+	transition: 0.3s;
+	cursor:pointer;
+	font-size:40px;
+	float:right;
+
+}
+
+.str_selector i:hover{
+	color:#101820FF
+}
+
+@media only screen and (max-width: 1000px) {
+
+.logo_display{
+	right:50%;
+}
+
+.functions_display{
+	left:50%;
+}
+  .right_options{
+  	position:absolute;
+	display:block;
+	top:100%;
+	bottom: -50%;
+	left:0%;
+	right: 0%;
+	width:100%;
+	background-color:#101820FF;
+  }
+
+  .api_resources{
+	top:5%;
+	left:5%;
+	right:55%;
+	bottom:5%;
+}
+
+.server_informations{
+	top:5%;
+	left:55%;
+	right:5%;
+	bottom:5%;
+}
+
+  .center_options{
+  	right:0%;
+  }
+
+
+  .files_section{
+  	position:absolute;
+	display:block;
+	top:5%;
+	left:2%;
+	right:51%;
+	bottom: 5%;
+	width:45%;
+	background-color:rgb(230, 230, 230);
+  }
+
+  .database_section{
+  	position:absolute;
+	bottom:5%;
+	left:51%;
+	right:2%;
+	top: 5%;
+	width:45%;
+	background-color:rgb(230, 230, 230);
+  }
+
+  .files_structure_display, .tables_structure_display{
+  	position:absolute;
+  	top:20%;
+  	bottom:70%;
+  	left:3%;
+  	right:3%;
+  	width:94%;
+  }
+
+  .api_structure_display, .export_all_tables_display{
+  	position:absolute;
+  	top:35%;
+  	bottom:55%;
+  	left:3%;
+  	right:3%;
+  	width:94%;
+  }
+
+  .backup_display, .database_backup_display{
+  	position:absolute;
+  	top:50%;
+  	bottom:40%;
+  	left:3%;
+  	right:3%;
+  	width:94%;
+  }
+
+  .restoration_display, .database_restoration_display{
+  	position:absolute;
+  	top:65%;
+  	bottom:25%;
+  	left:3%;
+  	right:3%;
+  	width:94%;
+  }
+
+  .launch_project_display, .launch_phpmyadmin_display{
+  	position:absolute;
+  	top:80%;
+  	bottom:10%;
+  	left:3%;
+  	right:3%;
+  	width:94%;
+  }
+
+  .add_admin_display{
+  	position:absolute;
+  	top:90%;
+  	bottom:0%;
+  	left:3%;
+  	right:3%;
+  }
+
+}
+
+
+@media only screen and (max-width: 700px) {
+
+.logo_display{
+	left:2%;
+	right:40%;
+}
+  .right_options{
+	display:block;
+	top:200%;
+	bottom: -150%;
+	left:0%;
+	right: 0%;
+	width:100%;
+	background-color:#101820FF;
+  }
+
+  .api_resources{
+	top:5%;
+	left:2%;
+	right:51%;
+	bottom:5%;
+}
+
+.server_informations{
+	top:5%;
+	left:51%;
+	right:2%;
+	bottom:5%;
+}
+
+  .center_options{
+  	right:0%;
+  }
+
+
+  .files_section{
+	display:block;
+	top:5%;
+	left:2%;
+	right:2%;
+	bottom: 5%;
+	width:96%;
+	background-color:rgb(230, 230, 230);
+  }
+
+  .database_section{
+  	top:100%;
+  	bottom: -95%;
+	left:2%;
+	right:2%;
+	width:96%;
+	background-color:rgb(230, 230, 230);
+  }
+
+    .files_structure_display, .tables_structure_display{
+  	top:20%;
+  	bottom:70%;
+  	left:17%;
+  	right:3%;
+  	width:80%;
+  }
+
+  .api_structure_display, .export_all_tables_display{
+  	top:35%;
+  	bottom:55%;
+  	left:17%;
+  	right:3%;
+  	width:80%;
+  }
+
+  .backup_display, .database_backup_display{
+  	top:50%;
+  	bottom:40%;
+  	left:17%;
+  	right:3%;
+  	width:80%;
+  }
+
+  .restoration_display, .database_restoration_display{
+  	top:65%;
+  	bottom:25%;
+  	left:17%;
+  	right:3%;
+  	width:80%;
+  }
+
+  .launch_project_display, .launch_phpmyadmin_display{
+  	top:80%;
+  	bottom:10%;
+  	left:17%;
+  	right:3%;
+  	width:80%;
+  }
+
+  .add_admin_display{
+  	position:absolute;
+  	top:90%;
+  	bottom:0%;
+  	left:17%;
+  	right:3%;
+  }
+}

@@ -1,0 +1,179 @@
+html, body{
+	margin:0px;
+}
+
+.main_page{
+	position:absolute;
+	top:0%;
+	bottom: 0%;
+	left: 0%;
+	right : 0%;
+	text-align: center;
+	background-color:#DAA03DFF;
+	min-height: 500px;
+}
+
+.main_page_func{
+	position:absolute;
+	top: 15%;
+	bottom: 5%;
+	left: 10%;
+	right: 10%;
+	background-color:#101820FF;
+}
+
+.main_page_admin_logo{
+	position:absolute;
+	top:5%;
+	bottom: 70%;
+	left:43%;
+	right:43%;
+	border-radius:50%;
+}
+
+.main_page_admin_logo i{
+	font-size:150px;
+	color:#E94B3CFF;
+}
+
+.main_page h2{
+	color:#DAA03DFF;
+	background-color:#101820FF;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	padding-top:20px;
+	padding-bottom: 20px;
+	width:100%;
+}
+
+.main_page_login{
+	position:absolute;
+	top: 40%;
+	bottom: 5%;
+	left: 35%;
+	right: 35%;
+	display:block;
+}
+
+.main_page_login #username, #password{
+	display:block;
+	width: 90%;
+	border:none;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+	text-indent: 20px;
+}
+
+.admin_login_btn{
+	color:white;
+	cursor:pointer;
+	border:none;
+	text-decoration: none;
+	width: 50%;
+	position:absolute;
+	top:70%;
+	left:25%;
+	right:25%;
+	bottom: 15%;
+	background-color: #E94B3CFF;
+	transition: 0.3s;
+}
+
+
+.admin_login_btn:hover{
+	background-color:orange;
+}
+
+
+.notification_view{
+	display:none;
+	position:absolute;
+	top:0%;
+	bottom:0%;
+	left:0%;
+	right:0%;
+	width:100%;
+	height:105%;
+	text-align:center;
+	background-color:rgba(0,0,0,0.9);
+}
+
+.close_notification_view{
+	position:absolute;
+	top:5%;
+	right:5%;
+	bottom: 80%;
+	left:85%;
+	display:block;
+}
+
+.close_notification_view i{
+	color: #283655;
+	font-size:35px;
+	cursor:pointer;
+	transition:0.3s;
+}
+
+.close_notification_view i:hover{
+	color:#A33A47;
+}
+
+.login_failed{
+	display:block;
+	position:absolute;
+	top:30%;
+	bottom: 30%;
+	left: 30%;
+	right: 30%;
+	background-color:#f2f2f2;
+	text-align:center;
+}
+
+.login_message{
+	position:absolute;
+	top:20%;
+	bottom: 10%;
+	left:0%;
+	right:0%;
+	text-align:center;
+}
+
+.login_message i{
+	color:#A33A47;
+	font-size:40px;
+}
+
+.login_message p{
+	color: #283655;
+	font-size:35px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+@media only screen and (max-width: 900px) {
+	.main_page_func{
+		top: 15%;
+		bottom: 5%;
+		left: 5%;
+		right: 5%;
+	}
+
+	.main_page_login{
+		top: 40%;
+		bottom: 5%;
+		left: 25%;
+		right: 25%;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.main_page_login{
+		top: 40%;
+		bottom: 5%;
+		left: 15%;
+		right: 15%;
+	}
+}
